@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="darkrai.lysis.corp.aidbot.BurnsActivity">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+    <VideoView
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:id="@+id/burns"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/textspeech"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/mic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burns are injuries due to heat,chemicals,friction.
+ Most commonly burns are caused due to exposure to fire, hot liquids and steam.
+Chemical burns occur when the skin is exposed to chemicals.
+ Burns can injure the layers of the skin and severe burns can affect the muscles, fat and bones.
+It is important
+
+
+to determine the extent of tissue damage before starting treatment for burns.
+Categories of Burns
+
+Burns are categorized depending on the severity of tissue damage.
+
+    First degree - This is superficial and involves only the outer layer of the skin
+    Second degree - This is a relatively minor, deep burn where the first and second layer of skin is burned
+    Third degree - This is a deep burn involving all layers of the skin. In this case, the nerves, sweat glands, blood vessels are destroyed
+    Fourth degree - This is a very deep burn extending through the skin into the subcutaneous tissue and muscle and bone
+
+Symptoms
+
+    First degree:
+        Local inflammation of the skin
+        Pain, redness and some swelling
+        No blisters are seen
+    Second degree:
+        Pain, intense redness and swelling
+        Blisters are seen
+    Third degree:
+        Lack of pain due to the nerve endings being destroyed
+        Charring may be seen
+        Blisters appear burnt
+        Swelling
+        Fluid oozing out
+        High possibility of casualty going into shock
+    Fourth degree:
+        Charring may be seen
+        Blisters appear burnt
+        Area may appear white
+        Bone may be visible
+
+Action
+
+    First degree:
+        Cool the area with cool running water for about 15 minutes to stop the burning and relieve the pain
+        Gently remove any jewellery, watches, or constricting clothing from the burned area before it starts to swell
+        Cover the area with a sterile dressing, or any clean (non-fluffy) material to protect from infection. Wrap the dressing loosely to avoid putting pressure on burned skin.
+        Do NOT use adhesive dressings
+    Second degree:
+        Remove casualty from burning area
+        Cover the area (loosely) with a clean, wet cloth
+        Keep the burned area elevated
+        Do NOT use adhesive dressings
+        Casualty needs medical attention
+    Third degree:
+        Remove casualty from burning area
+        Casualty requires immediate medical attention
+        Cover the area (loosely) with a clean, dry cloth to prevent infection
+        Keep the burned area elevated
+    Fourth degree:
+        Remove casualty from burning area
+        Casualty requires immediate medical attention
+        Cover the area (loosely) with a large clean, dry cloth to prevent infection
+        Keep the burned area elevated
+
+Important: For deep burns
+
+    Do NOT remove burned clothing
+    Do NOT immerse burned areas in cold water
+    Do NOT burst blisters
+    Do NOT apply lotions, ointment, oil or butter to the burned area
+"/>
+     </LinearLayout>
+</ScrollView>
